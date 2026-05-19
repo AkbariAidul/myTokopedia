@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Tokopedia" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#00AA5B</item>
+        <item name="colorPrimaryVariant">#008A4A</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#FF5722</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="android:statusBarColor">#00AA5B</item>
+    </style>
+</resources>

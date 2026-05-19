@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tokopedia_green">#00AA5B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#2E3137</color>
+    <color name="text_secondary">#6D7588</color>
+    <color name="surface_variant">#F3F4F5</color>
+    <color name="promo_orange">#FF5722</color>
+</resources>
