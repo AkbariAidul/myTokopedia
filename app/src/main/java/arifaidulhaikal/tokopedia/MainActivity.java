@@ -1,4 +1,4 @@
-package arifaidulhaikal;
+package arifaidulhaikal.tokopedia;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;

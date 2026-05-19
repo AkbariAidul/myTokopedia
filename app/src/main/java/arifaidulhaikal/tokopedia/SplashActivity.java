@@ -1,4 +1,4 @@
-package arifaidulhaikal;
+package arifaidulhaikal.tokopedia;
 
 import android.content.Intent;
 import android.os.Bundle;

@@ -16,7 +16,7 @@ Aplikasi Android clone sederhana dari Tokopedia. Dibuat menggunakan **Java** dan
 | Build System | Gradle (AGP 8.2.0) |
 | Min SDK | 23 (Android 6.0) |
 | Target SDK | 36 |
-| Package | `arifaidulhaikal` |
+| Package | `arifaidulhaikal.tokopedia` |
 | UI | XML Layout, AppCompat, Material Design |
 
 ## Cara Menjalankan
@@ -30,7 +30,7 @@ Aplikasi Android clone sederhana dari Tokopedia. Dibuat menggunakan **Java** dan
 
 ```
 app/src/main/
-├── java/arifaidulhaikal/
+├── java/arifaidulhaikal/tokopedia/
 │   ├── SplashActivity.java
 │   ├── LoginActivity.java
 │   └── MainActivity.java
