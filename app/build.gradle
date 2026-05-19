@@ -4,6 +4,7 @@ plugins {
 
 android {
     namespace 'arifaidulhaikal.tokopedia'
+    compileSdk 36
 
     defaultConfig {
         applicationId 'arifaidulhaikal.tokopedia'
