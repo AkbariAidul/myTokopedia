@@ -8,4 +8,12 @@
         <item name="colorOnSecondary">#FFFFFF</item>
         <item name="android:statusBarColor">#00AA5B</item>
     </style>
+
+    <!-- Splash Screen Theme with solid background -->
+    <style name="Theme.Tokopedia.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/tokopedia_green</item>
+        <item name="android:statusBarColor">@color/tokopedia_green</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+    </style>
 </resources>
