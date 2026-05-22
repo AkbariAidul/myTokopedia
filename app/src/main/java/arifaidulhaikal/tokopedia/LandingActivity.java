@@ -1,5 +1,6 @@
 package arifaidulhaikal.tokopedia;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.SpannableString;
@@ -16,6 +17,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import androidx.viewpager2.widget.ViewPager2;
+
+import com.google.android.material.button.MaterialButton;
 
 public class LandingActivity extends AppCompatActivity {
 
@@ -52,6 +55,16 @@ public class LandingActivity extends AppCompatActivity {
             public void onPageSelected(int position) {
                 super.onPageSelected(position);
                 updateDots(position);
+            }
+        });
+        
+        // Set up button click listeners
+        MaterialButton btnMasuk = findViewById(R.id.btn_masuk);
+        btnMasuk.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(LandingActivity.this, LoginActivity.class);
+                startActivity(intent);
             }
         });
         
