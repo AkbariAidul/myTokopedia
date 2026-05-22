@@ -29,7 +29,7 @@ public class SplashActivity extends AppCompatActivity {
                 public void onClick(View v) {
                     try {
                         Log.d(TAG, "Button clicked, starting LoginActivity");
-                        startActivity(new Intent(SplashActivity.this, LoginActivity.class));
+                        startActivity(new Intent(SplashActivity.this, LandingActivity.class));
                         finish();
                     } catch (Exception e) {
                         Log.e(TAG, "Error starting LoginActivity", e);
